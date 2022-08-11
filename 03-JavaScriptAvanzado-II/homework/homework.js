@@ -3,6 +3,12 @@
 // Closures
 
 function counter() {
+  let contador = 0
+  return function incrementar(){
+    contador = contador + 1;
+    return contador;
+
+  }
   /*
   Ejercicio 1
 
